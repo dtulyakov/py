@@ -17,9 +17,9 @@ try:
         print "\nPermissions for file ", file, ":"
         for level in "USR", "GRP", "OTH":
             for perm in "R", "W", "X":
-               if mode & getattr(stat,"S_I"+perm+level):
-                   print level, " имеет ", perm, " права доступа"
-               else:
-                   print level, " не имеет ", perm, " прав доступа"
+                if mode & getattr(stat,"S_I"+perm+level):
+                    print level, " имеет ", perm, " права доступа"
+                else:
+                    print level, " не имеет ", perm, " прав доступа"
 except:
     print "Возникла проблема! Проверьте сообщение выше."
