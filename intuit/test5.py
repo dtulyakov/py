@@ -2,13 +2,11 @@
 # -*- coding: utf-8 -*-
 import os, sys
 try:
-	file = open("file.txt", "r")
-	while file:
-		line = file.readline()
-		if not line:
-			break
-		if len(line) > 5:
-			print line
-	file.close()
+	def cena(rub, kop=0):
+		return "%i руб. %i коп." % (rub, kop)
+
+	print cena(8, 50)
+	print cena(7)
+	print cena(rub=23, kop=70)
 except:
 	print "При выполнении программы возникла проблема!"

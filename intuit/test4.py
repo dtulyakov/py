@@ -2,13 +2,11 @@
 # -*- coding: utf-8 -*-
 import os, sys
 try:
-	file = open("file.txt", "r")
-	while file:
-		line = file.readline()
-		if not line:
-			break
-		if len(line) > 5:
-			print line
-	file.close()
+	min = 1
+	max = 15
+	for i in range(min, max):
+		for j in range(min, max):
+			print "%3i" % (i*j),
+		print
 except:
 	print "При выполнении программы возникла проблема!"

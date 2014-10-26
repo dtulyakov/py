@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*-
 import os, sys
 try:
-	file = open("file.txt", "r")
-	while file:
-		line = file.readline()
-		if not line:
-			break
-		if len(line) > 5:
-			print line
-	file.close()
+	a = 1
+	b = 2
+	c = a + b
+	print c
+	c = 33
+	assert c == a + b
+	print c
 except:
 	print "При выполнении программы возникла проблема!"
+finally:
+	print "Debug EOF"
