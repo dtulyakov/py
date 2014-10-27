@@ -3,7 +3,7 @@
 import stat, sys, os, string, commands
 #Записываем в переменную шаблон поиска, введенный пользователем
 try:
-    pattern = raw_input("Введите шаблон поиска:\n")
+    pattern = raw_input("Введите шаблон поиска ёпта:\n")
     #запускаем команду 'find' и присваиваем результат переменной
     commandString = "find " + pattern
     commandOutput = commands.getoutput(commandString)
