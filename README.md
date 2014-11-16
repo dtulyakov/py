@@ -1,5 +1,7 @@
-для обучения - python
+# для обучения - python #
 
+```
+#!python
 **NEW**
 * mkdir /path/to/your/project
 * cd /path/to/your/project
@@ -14,3 +16,4 @@
 
 * echo "# This is my README" >> README.md
 * git add . && git commit -a && git push -u origin master
+```
