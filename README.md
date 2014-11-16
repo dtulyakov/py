@@ -1,12 +1,12 @@
 для обучения - python
 
-* NEW
+**NEW**
 * mkdir /path/to/your/project
 * cd /path/to/your/project
 * git init
 * git remote add origin ssh://git@bitbucket.org/dtulyakov/py.git
  
-* NOT NEW
+**NOT NEW**
 * cd /path/to/my/repo
 * git remote add origin ssh://git@bitbucket.org/dtulyakov/py.git
 * git push -u origin --all # pushes up the repo and its refs for the first time
